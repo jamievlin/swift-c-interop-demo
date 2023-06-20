@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Debug swiftproj (swiftproj)",
+            "program": "${workspaceFolder:swift_c_interop_demo}\\swiftproj\\.build/debug/swiftproj",
+            "args": [],
+            "cwd": "${workspaceFolder:swift_c_interop_demo}/swiftproj",
+            "preLaunchTask": "swift: Build Debug swiftproj (swiftproj)"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "name": "Release swiftproj (swiftproj)",
+            "program": "${workspaceFolder:swift_c_interop_demo}\\swiftproj\\.build/release/swiftproj",
+            "args": [],
+            "cwd": "${workspaceFolder:swift_c_interop_demo}/swiftproj",
+            "preLaunchTask": "swift: Build Release swiftproj (swiftproj)"
+        }
+    ]
+}
